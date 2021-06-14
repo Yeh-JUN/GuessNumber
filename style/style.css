@@ -1,0 +1,46 @@
+body{
+    background-color: #E7E7E7;
+}
+
+.outside-container{
+    max-width: 630px;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 8px 8px 7px rgb(0 ,0, 0, 0.7);
+}
+
+.inside-container{
+    padding: 0 10px;
+}
+
+.control-group{
+    font-size: 0px;
+    padding: 10px 0;
+    display: flex;
+}
+
+.control-group > button{
+    border-color: black;
+}
+
+.control-group > button{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    background-color: #fff;
+    flex-grow: 1;
+}
+
+.guess-num-group{
+    display: flex;
+    padding: 10px 0;
+}
+
+.input-col{
+    flex-grow:1;
+}
+
+
+
+
